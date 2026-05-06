@@ -117,3 +117,12 @@ Este conceito pode ser reutilizado para:
 ## Status
 
 Versão inicial em uso prático.
+
+## Créditos / Referências
+
+Algumas ideias e referências utilizadas neste plugin foram obtidas através de discussões no fórum oficial da MA Lighting.
+
+Tópico utilizado como referência:
+https://forum.malighting.com/forum/thread/69637-best-practice-shipping-plugin-with-images/?postID=87077#post87077
+
+Agradecimentos à comunidade MA Lighting pelas informações e exemplos compartilhados.
