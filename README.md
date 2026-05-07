@@ -1,21 +1,40 @@
-# MA2 Show Tools
+# MA-Tools
 
-Repositório para organização e versionamento de plugins e macros para grandMA2.
+Ferramentas, plugins, macros e utilitários para grandMA2 e grandMA3.
 
----
+## Estrutura
+
+### MA2 ShowTools
+
+Ferramentas e plugins desenvolvidos para grandMA2.
+
+### MA3 ShowTools
+
+Ferramentas e plugins desenvolvidos para grandMA3.
+
+## Conteúdo
+
+* Plugins
+* Macros
+* Show utilities
+* Ferramentas de programação
+* Automação de workflow
+
+## Autor
+
+Vitor Augusto
+
+## Compatibilidade
+
+* grandMA2
+* grandMA3
 
 ## Objetivo
 
-Centralizar ferramentas utilizadas na programação e operação de shows, com foco em:
+Centralizar ferramentas úteis para programação e operação de iluminação profissional.
 
-1. Agilidade na programação
-2. Redução de dependência de arquivos externos
-3. Padronização de workflow
-4. Reutilização de sistemas entre diferentes shows
+## Status do Projeto
 
----
+Em desenvolvimento 🚧
 
-## Status
-
-Projeto em desenvolvimento.
-Novos plugins, macros e melhorias serão adicionados gradualmente.
+Novas ferramentas, plugins e melhorias serão adicionados continuamente.
