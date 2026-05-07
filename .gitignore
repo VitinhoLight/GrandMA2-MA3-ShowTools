@@ -1,0 +1,12 @@
+# VSCode local config
+.vscode/settings.json
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temp
+*.tmp
