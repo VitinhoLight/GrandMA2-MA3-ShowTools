@@ -2,7 +2,7 @@
 
 Pacote de macros utilitárias para grandMA2 criado para simplificar processos de patch, alinhamento de fixtures e correção de inversões de Pan/Tilt durante programação e montagem de rigs.
 
-![MA2 Patch & Invert Tools](Screenshots/MA2-Patch-And-Invert-Tools.Png)
+![MA2 Patch & Invert Tools](Screenshots/MA2-Patch-And-Invert-Tools.png)
 
 ## Macros Inclusas
 
