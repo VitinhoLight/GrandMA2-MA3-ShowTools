@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.61/MA.xsd" major_vers="3" minor_vers="9" stream_vers="61">
+	<Info datetime="2026-05-08T14:43:25" showfile="showfile agenna" />
+	<Macro index="17" name="Patch Selection">
+		<Macroline index="0">
+			<text>Assign Selection At DmxUniverse (Universo).(Endereço)</text>
+		</Macroline>
+	</Macro>
+	<Macro index="18" name="ResetDMX+EncInvert">
+		<Macroline index="0">
+			<text>Assign Fixture Thru /PanDMXInvert=0</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign Fixture Thru /TiltDMXInvert=0</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Assign Fixture Thru /PanEnc.Invert=0</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Assign Fixture Thru /TiltEnc.Invert=0</text>
+		</Macroline>
+	</Macro>
+	<Macro index="19" name="PanDMX Invert">
+		<Macroline index="0">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Assign Fixture Thru /PanDMXInvert=1</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+		<Macroline index="6" delay="-1">
+			<text>---------------------------------------------------------------</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Assign Fixture Thru /PanDMXInvert=0</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+	</Macro>
+	<Macro index="20" name="TiltDMX Invert">
+		<Macroline index="0">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Assign Fixture Thru /TiltDMXInvert=1</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+		<Macroline index="6" delay="-1">
+			<text>---------------------------------------------------------------</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Assign Fixture Thru /TiltDMXInvert=0</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+	</Macro>
+	<Macro index="21" name="PanEnc Invert">
+		<Macroline index="0">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Assign Fixture Thru /PanEnc.Invert=1</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+		<Macroline index="6" delay="-1">
+			<text>---------------------------------------------------------------</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Assign Fixture Thru /PanEnc.Invert=0</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+	</Macro>
+	<Macro index="22" name="TiltEnc Invert">
+		<Macroline index="0">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Assign Fixture Thru /TiltEnc.Invert=1</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+		<Macroline index="6" delay="-1">
+			<text>---------------------------------------------------------------</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Store World 999 /o</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Assign World 999 /Selection=On</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>World 999</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Assign Fixture Thru /TiltEnc.Invert=0</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>World 1</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Delete World 999 /nc</text>
+		</Macroline>
+	</Macro>
+</MA>
